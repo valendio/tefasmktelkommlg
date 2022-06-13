@@ -16,7 +16,7 @@ public class arr1 {
 
             if (!numbers.contains(random)) {
                 numbers.add(random);
-            }
+            }   
         }
         return numbers;
     }
@@ -28,8 +28,7 @@ public class arr1 {
         ArrayList<ArrayList<Integer>> integers = new ArrayList<>(); //memasukkan output ke dalam array
         integers.add(list); //memasukkan output ke dalam array
         System.out.println(integers);
-        System.out.println("\n");
-        System.out.println("Sesudah diurutkan");
+        System.out.println("\nSesudah diurutkan");
 
         for (int i = 0; i < list.size() - 1; i++) { //Metode selection sort
             int maxElementIndex = i;
