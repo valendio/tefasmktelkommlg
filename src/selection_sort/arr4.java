@@ -27,9 +27,7 @@ public class arr4 {
         ArrayList<ArrayList<Integer>> integers = new ArrayList<>(); //memasukkan output ke dalam array
         integers.add(list);
         System.out.println(integers);
-        System.out.println("\n");
-
-        System.out.println("Sesudah diurutkan");
+        System.out.println("\nSesudah diurutkan");
         for (int i = 0; i < list.size() - 1; i++) {
             int maxElementIndex = i;
             for (int j = i + 1; j < list.size(); j++) {
@@ -37,7 +35,6 @@ public class arr4 {
                     maxElementIndex = j;
                 }
             }
-
             if (maxElementIndex != i) {
                 int temp = list.get(i);
                 list.set(i, list.get(maxElementIndex));
@@ -45,8 +42,5 @@ public class arr4 {
             }
             System.out.println(list);
         }
-
-
-
     }
 }
