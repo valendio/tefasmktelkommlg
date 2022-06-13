@@ -27,8 +27,7 @@ public class arr2 {
         ArrayList<ArrayList<Integer>> integers = new ArrayList<>(); //memasukkan output ke dalam array
         integers.add(list);
         System.out.println(integers);
-        System.out.println("\n");
-        System.out.println("Sesudah diurutkan");
+        System.out.println("\nSesudah diurutkan");
 
         for (int i = 0; i < list.size() - 1; i++) {
             int maxElementIndex = i;
