@@ -40,10 +40,7 @@ public class arr3 {
     public static void main(String[] args){
         ArrayList<Integer> list = randomArrInt(50, 1, 50);
         System.out.println("Sebelum diurutkan");
-//        for (Integer integer : list) {
-//            System.out.println("" + integer);
-//        }
-
+        
         ArrayList<ArrayList<Integer>> integers = new ArrayList<>(); //memasukkan output ke dalam array
         integers.add(list);
         System.out.println(integers);
@@ -66,8 +63,5 @@ public class arr3 {
             }
             System.out.println(list);
         }
-
-
-
     }
 }
